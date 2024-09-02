@@ -223,29 +223,6 @@ To add custom rules, edit the `customrules.rules` file in the Snort rules direct
 - **Snort Logs**: The location of Snort logs depends on the output configuration in `snort.conf`. If syslog integration is enabled, logs can be found in `/var/log/syslog` or the specified log file.
 - **Rsyslog Logs**: If `rsyslog` is used for logging Snort alerts, check `/var/log/syslog` or the configured log destination.
 
-## 🤝 Contributing
-
-Contributions to this project are welcome! Here’s how you can contribute:
-
-1. **Fork the Repository**: Click on the 'Fork' button at the top right of this page to create a copy of this repository on your GitHub account.
-2. **Clone Your Fork**: Use `git clone` to download your fork to your local machine.
-
-    git clone https://github.com/YourUsername/Snort-Rules-Script.git
-
-3. **Create a Branch**: Create a new branch for your changes.
-
-    git checkout -b feature-branch-name
-
-4. **Make Changes**: Implement your changes or add new features.
-5. **Test Your Changes**: Ensure that your changes work as expected and do not introduce any errors.
-6. **Commit and Push**: Commit your changes to your branch and push them to your fork.
-
-    git add .
-    git commit -m "Description of changes"
-    git push origin feature-branch-name
-
-7. **Submit a Pull Request**: Go to the original repository and click on 'New Pull Request' to submit your changes for review.
-
 ## 📄 License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this script, provided that you include the original license. See the [LICENSE](LICENSE) file for more details.
