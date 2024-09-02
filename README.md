@@ -75,8 +75,8 @@ To install and set up the Snort Rules Configuration Script, follow these steps:
 
 Clone the repository from GitHub to your local machine using the following commands:
 
-    git clone https://github.com/YourUsername/Snort-Rules-Script.git
-    cd Snort-Rules-Script
+    git clone https://github.com/PietroCavaliere/snort-rules.git
+    cd snort-rules
 
 ### Step 2: Install Snort
 
